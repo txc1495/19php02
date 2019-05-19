@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang "en">
+<head>
+	<meta charset="utf-8">
+	<title>form</title>
+	<link rel="stylesheet" type="text/css" href="formLogin.css">
+</head>
+<body>
+	<form name="myRegisreForm" action="#" method="POSt">
+		<p>Name:
+			<input type="text" name="name">
+		</p>
+		<p>UserName:
+			<input type="text" name="username">
+		</p>
+		<p>PassWord:
+			<input type="password" name="password">
+		</p>
+		<p>Gender
+			<input type="radio" name="gender" value="male" checked="">Male
+			<input type="radio" name="gender" value="female">Female
+			<input type="radio" name="gender" value="other">Other
+		</p>
+		<p>City
+			<select name="City">
+				<option value="">Choose City</option>
+				<option value="danang">Da Nang</option>
+				<option value="hanoi">Ha Noi</option>
+				<option value="hcm">TP HCM</option>
+			</select>
+		</p>	
+		<p>About us
+			<textarea name="about"></textarea>
+			<!-- <textarea name="about" rows="10" cols="20"></textarea> -->
+		</p>
+		<p>
+			<input type="submit" name="register" value="Register">
+		</p>
+	</form>
+</body>
+</html>

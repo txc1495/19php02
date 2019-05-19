@@ -1,0 +1,19 @@
+ul li{
+	list-style-type: none;
+	float: left;
+	border:  2px solid blue;
+	padding: 10px;
+	text-align: center;
+}
+
+ul li a{
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	width: 175px;
+	padding: 1em 0;
+	background-color: blue;
+	font-weight: bold;
+	color: white;
+	border: 0.5px solid white;
+}
