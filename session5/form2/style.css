@@ -9,15 +9,34 @@
     margin-left: 20px;
     
 }
+#title {
+    margin-left: 3%;
+}
 form {
+    margin-left: 3%;
     border: 1px solid gray;
-    border-radius: 5px;
+    border-radius: 1%;
 }
 .text {
-    margin-left: 20px;
+    margin-left: 4%;
     width: 100%;
 }
-
+#register {
+    height: 30px;
+    width: 100px;
+    background: #e0ded7;
+    color: grey;
+    border: 0px solid #e0ded7;
+    border-radius: 1%;
+}
+#login {
+    height: 25px;
+    width: 70px;
+    background: #e0ded7;
+    color: grey;
+    border: 0px solid #e0ded7;
+    border-radius: 1%;
+}
 @media screen and (max-width: 1000px ){
     #left {
         width: 100%;
